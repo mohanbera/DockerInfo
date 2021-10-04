@@ -17,3 +17,15 @@
 // to stop a container
 # docker stop <name> 
 # docker stop <id>
+
+// to remove a container 
+# docker rm <name>
+
+// to remove an image 
+# docker rmi <image name>
+
+// to run and detach the container 
+# docker run -d <name>
+
+// to attach with it again
+# docket attach <id of the container> 
