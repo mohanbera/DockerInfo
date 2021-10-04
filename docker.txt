@@ -1,0 +1,16 @@
+// first pull an os from docker hub
+#  docker pull centos
+
+// now run the docker image
+# docker run -d -t --name <name> centos
+
+// see all the running container
+# docker ps 
+# docker ps -a
+
+// connect with the docker container bash
+# docker exec -it <name> bash
+
+// to back to the prev bash
+# exit 
+
